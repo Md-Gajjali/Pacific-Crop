@@ -1,7 +1,9 @@
 import React from 'react'
 import logo from '../assets/logo/XMLID_1_.svg'
+import path from '../assets/vector.png'
 import Button from './Button'
 import Flex from './Flex'
+
 
 
 const Navber = () => {
@@ -19,7 +21,7 @@ const Navber = () => {
                             </div>
                         </div> 
                 <div>
-                    <ul className=' flex justify-between  font-sanssa gap-10  text-[16px]'>
+                    <ul className=' flex justify-between  font-sanssa gap-10  text-paragraphColor text-[16px]'>
                         <li>Home</li>
                         <li>Pages</li>
                         <li>Services</li>
@@ -32,6 +34,9 @@ const Navber = () => {
                     <Button>Call Now</Button>
                 </div>
                     </Flex>
+                </div>
+                <div className=' absolute top-0 left-0 '>
+                    <img src={path} alt="" />
                 </div>
             </nav>
         </>

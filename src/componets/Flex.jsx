@@ -11,3 +11,7 @@ const Flex = ({children}) => {
 }
 
 export default Flex
+
+
+//template literal
+// className={`flex justify-between items-center ${className}`}
