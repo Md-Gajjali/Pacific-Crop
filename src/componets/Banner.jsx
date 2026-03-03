@@ -8,7 +8,7 @@ const Banner = () => {
     <>
     <div className='relative'>
         <div className="container ">
-          <Flex className='bg-amber-300'>
+          <Flex className=''>
             <div>
               <h1
                 className='w-170 h-67.5 font-sansssa font-bold text-[70px] text-heading leading-o.2 mt-36 '>

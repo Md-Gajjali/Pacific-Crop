@@ -16,7 +16,7 @@ const OurService = () => {
          para="We work with several leading insurance companies to secure insurance coverages tailored to meet your needs."
         />
 
-        <Flex >
+        <Flex className='justify-between '>
           <ServiceCard 
           imgSrc={house}
           heading='Home insurance'
