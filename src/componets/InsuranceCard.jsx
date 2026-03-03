@@ -2,7 +2,7 @@ import React from 'react'
 
 const InsuranceCard = ({ img, heading, para }) => {
     return (
-        <div className='w-92.5 py-13.75 px-8.75 hover:bg-white hover:shadow text-center rounded-sm duration-200'>
+        <div className='w-92.5 py-13.75 px-8.75 hover:bg-white hover:shadow-2xl  text-center rounded-2xl duration-500'>
             <div className=' m-auto flex justify-center items-center  h-18.75'>
                 <img src={img} alt="" />
             </div>

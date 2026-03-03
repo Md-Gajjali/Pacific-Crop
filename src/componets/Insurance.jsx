@@ -15,14 +15,40 @@ const Insurance = () => {
             heading='We’re Your Right Insurance Advocate' 
             para='We work with several leading insurance companies to secure insurance coverages tailored to meet your needs.'
         />
-        <Flex>
+        <Flex className='flex-wrap justify-center mt-20 '>
             <InsuranceCard   
                 img={starss}
                 heading='We’re unbiased'
                 para='Our online tools help you decide what
-product is best for you. We’re here to insurance plan you choose.'
+                product is best for you. We’re here to insurance plan you choose.'
             />
+            <InsuranceCard   
+                img={starss}
+                heading='We’re unbiased'
+                para='Our online tools help you decide what
+                product is best for you. We’re here to insurance plan you choose.'
+            />
+            <InsuranceCard   
+                img={starss}
+                heading='We’re unbiased'
+                para='Our online tools help you decide what
+                product is best for you. We’re here to insurance plan you choose.'
+            />
+             <InsuranceCard   
+                img={starss}
+                heading='We’re unbiased'
+                para='Our online tools help you decide what
+                product is best for you. We’re here to insurance plan you choose.'
+            />
+             <InsuranceCard   
+                img={starss}
+                heading='We’re unbiased'
+                para='Our online tools help you decide what
+                product is best for you. We’re here to insurance plan you choose.'
+            />
+
         </Flex>
+
 
      </Container>
     </div>
