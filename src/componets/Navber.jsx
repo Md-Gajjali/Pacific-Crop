@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../assets/logo/XMLID_1_.svg'
-import path from '../assets/vector.png'
+import path from '../assets/Vector.png'
 import Button from './Button'
 import Flex from './Flex'
 
@@ -10,8 +10,8 @@ const Navber = () => {
     return (
         <>
             <nav className='mt-12.5'>
-                <div className="container ">
-                    <Flex> 
+                <div className="container  ">
+                    <Flex className='items-center justify-between'>
                         <div className='flex gap-4 items-center'>
                             <div>
                                 <img src={logo} alt="" />
@@ -19,20 +19,20 @@ const Navber = () => {
                             <div>
                                 <h3 className='w-52 h-[44] font-bold  text-3xl '>Pacific Corp.</h3>
                             </div>
-                        </div> 
-                <div>
-                    <ul className=' flex justify-between  font-sanssa gap-10  text-paragraphColor text-[16px]'>
-                        <li>Home</li>
-                        <li>Pages</li>
-                        <li>Services</li>
-                        <li>Portfolio</li>
-                        <li>Blog</li>
-                        <li>Contact Us</li>
-                    </ul>
-                </div>
-                <div>
-                    <Button>Call Now</Button>
-                </div>
+                        </div>
+                        <div>
+                            <ul className=' flex justify-between  font-sanssa gap-10  text-paragraphColor text-[16px]'>
+                                <li>Home</li>
+                                <li>Pages</li>
+                                <li>Services</li>
+                                <li>Portfolio</li>
+                                <li>Blog</li>
+                                <li>Contact Us</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <Button>Call Now</Button>
+                        </div>
                     </Flex>
                 </div>
                 <div className=' absolute top-0 left-0 '>
