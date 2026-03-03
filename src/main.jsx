@@ -5,7 +5,6 @@ import App from './App.jsx'
 import { createBrowserRouter } from "react-router";
 import { RouterProvider } from "react-router/dom";
 import RoutLayout from './RoutLayout.jsx';
-import Product from './pages/Product.jsx';
 
 const router = createBrowserRouter([
   {
@@ -13,7 +12,6 @@ const router = createBrowserRouter([
     Component: RoutLayout,
     children: [
       { index: true, Component: App },
-      { path: "Product", Component: Product },
     ],
   },
 ]);
