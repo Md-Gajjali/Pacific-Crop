@@ -19,9 +19,13 @@ const Protection = () => {
                 />
                 <Flex className='justify-between mt-12'>
                     <img src={family1} alt="" />
-                    <div>
-                        <img src={family2} alt="" className='h-59.25' />
-                        <p></p>
+                    <div className='text-center items-center  '>
+                        <div>
+                            <img src={family2} alt="" className='h-59.25' />
+                        </div>
+                        <h2 className='font-sansssa font-bold text-2xl w-81.5 mt-5 m-auto'>How to prevent and protect your family from Carbon monoxide</h2>
+                        <p className='w-77 mt-2.5 m-auto'>We share common trends, strategies ideas, opinion, short & log
+                            stories from the team behind company.</p>
                     </div>
                     <img src={family3} alt="" />
                 </Flex>
