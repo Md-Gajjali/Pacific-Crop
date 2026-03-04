@@ -7,7 +7,7 @@ const InsuranceCard = ({ img, heading, para }) => {
                 <img src={img} alt="" />
             </div>
             <h2 className='font-sansssa font-bold text-[20px] mt-7.5 '>{heading}</h2>
-            <p className='font-sansssa font-normal text-[16px] text-center'>{para}</p>
+            <p className='font-sansssa font-normal text-[16px] text-center mt-2.5 leading-8'>{para}</p>
         </div>
     )
 }
