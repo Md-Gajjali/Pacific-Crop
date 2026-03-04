@@ -6,7 +6,7 @@ import group from '../assets/group.png'
 
 const Footer = () => {
   return (
-    <div className='mt-32'>
+    <div className='py-32'>
       <Container>
         <Flex className='justify-between '>
           <div className='w-65.75'>
