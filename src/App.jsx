@@ -6,6 +6,7 @@ import VerifiedCustomer from './componets/VerifiedCustomer'
 import Insurance from './componets/Insurance'
 import Protection from './componets/Protection'
 import CustomerSays from './componets/CustomerSays'
+import EmailPart from './componets/EmailPart'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Insurance />
       <Protection />
       <CustomerSays />
+      <EmailPart />
     </>
   )
 }
