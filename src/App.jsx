@@ -7,6 +7,7 @@ import Insurance from './componets/Insurance'
 import Protection from './componets/Protection'
 import CustomerSays from './componets/CustomerSays'
 import EmailPart from './componets/EmailPart'
+import Footer from './componets/Footer'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Protection />
       <CustomerSays />
       <EmailPart />
+      <Footer />
     </>
   )
 }
