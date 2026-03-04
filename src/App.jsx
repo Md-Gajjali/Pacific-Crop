@@ -4,6 +4,7 @@ import Banner from './componets/Banner'
 import OurService from './componets/OurServices'
 import VerifiedCustomer from './componets/VerifiedCustomer'
 import Insurance from './componets/Insurance'
+import Protection from './componets/Protection'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <OurService />
       <VerifiedCustomer />
       <Insurance />
+      <Protection />
     </>
   )
 }

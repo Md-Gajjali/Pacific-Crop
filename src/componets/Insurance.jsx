@@ -46,9 +46,7 @@ const Insurance = () => {
                 para='Our online tools help you decide what
                 product is best for you. We’re here to insurance plan you choose.'
             />
-
         </Flex>
-
 
      </Container>
     </div>
