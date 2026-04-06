@@ -7,7 +7,6 @@ import starss from '../assets/starss.png'
 import save from '../assets/save.png'
 import protect from '../assets/protect.png'
 import woman from '../assets/woman.png'
-import simple from '../assets/simple.png'
 
 const Insurance = () => {
   return (
