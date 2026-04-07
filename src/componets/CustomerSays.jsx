@@ -22,7 +22,7 @@ const CustomerSays = () => {
 
                 />
 
-                <Flex className='justify-between'>
+                <Flex className='lg:justify-between flex flex-wrap justify-center'>
                     <div className='w-92.25 py-13 px-13.75 bg-white shadow-2xl rounded-2xl mt-12'>
                         <Flex className='gap-2'>
                             <img src={star} alt="" />

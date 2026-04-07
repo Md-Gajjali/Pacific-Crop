@@ -8,14 +8,14 @@ const Footer = () => {
   return (
     <div className='py-32'>
       <Container>
-        <Flex className='justify-between '>
+        <Flex className='lg:justify-between flex flex-wrap px-5'>
           <div className='w-65.75'>
             <Flex className='items-center gap-2 '>
               <img src={pacific} alt="" />
               <h2>Pacific Corp.</h2>
             </Flex>
             <p className='font-sansssa text-[16px] mt-4'>Build a modern and creative website with crealand</p>
-            <img src={group} alt="" className='mt-8' />
+            <img src={group} alt="" className='mt-8 mb-8' />
           </div>
           <div>
             <h2 className='text-[18px] font-bold'>Product</h2>
@@ -27,7 +27,7 @@ const Footer = () => {
               <li>Pricing</li>
             </ul>
           </div>
-          <div>
+          <div className='mr-10 lg:mr-0'>
             <h2 className='text-[18px] font-bold'>Services</h2>
             <ul className='mt-8 font-sansssa text-[16px] text-gray-500 leading-9'>
               <li>Documentation</li>
@@ -37,7 +37,7 @@ const Footer = () => {
               <li>UI Kit</li>
             </ul>
           </div>
-          <div>
+          <div className='mr-5 lg:mr-0'>
             <h2 className='text-[18px] font-bold'>Company</h2>
             <ul className='mt-8 font-sansssa text-[16px] text-gray-500 leading-9'>
               <li>About</li>
@@ -54,8 +54,6 @@ const Footer = () => {
               <li>Changelog</li>
             </ul>
           </div>
-
-          
         </Flex>
       </Container>
     </div>

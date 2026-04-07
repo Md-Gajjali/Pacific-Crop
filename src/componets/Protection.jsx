@@ -17,17 +17,17 @@ const Protection = () => {
             stories from the team behind company'
                     className='mt-32.5'
                 />
-                <Flex className='justify-between mt-12'>
+                <Flex className='lg:justify-between flex flex-wrap justify-center mt-12'>
                     <img src={family1} alt="" />
-                    <div className='text-center items-center  '>
+                    <div className='text-center items-center mt-10 lg:mt-0 '>
                         <div>
-                            <img src={family2} alt="" className='h-59.25' />
+                            <img src={family2} alt="" className='h-59.25 ' />
                         </div>
                         <h2 className='font-sansssa font-bold text-2xl w-81.5 mt-5 m-auto'>How to prevent and protect your family from Carbon monoxide</h2>
                         <p className='w-77 mt-2.5 m-auto'>We share common trends, strategies ideas, opinion, short & log
                             stories from the team behind company.</p>
                     </div>
-                    <img src={family3} alt="" />
+                    <img src={family3} alt="imges" className='mt-10 lg:mt-0' />
                 </Flex>
             </Container>
         </div>
