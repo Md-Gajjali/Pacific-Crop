@@ -21,7 +21,7 @@ const Navber = () => {
     return (
         <>
             
-            <nav className='mt-12.5 relative z-50 dark:bg-black dark:text-white'>
+            <nav className='mt-12.5 relative z-50 '>
                 <div className="container">
                     <Flex className='items-center  justify-between'>
 
