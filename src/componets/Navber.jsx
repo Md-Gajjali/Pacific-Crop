@@ -1,15 +1,17 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import logo from '../assets/logo/XMLID_1_.svg'
 import path from '../assets/Vector.png'
 import Button from './Button'
 import Flex from './Flex'
 import { FaBarsStaggered } from "react-icons/fa6";
+import { Theme } from '../context/ThemeContext'
 
 
 
 const Navber = () => {
-
+    const {theme , toggle} = useContext(Theme)
     const [show,setShow] = useState(false)
+   
 
     const handleClick = () => {
         setShow(!show)
@@ -19,9 +21,9 @@ const Navber = () => {
     return (
         <>
             
-            <nav className='mt-12.5 relative z-50'>
+            <nav className='mt-12.5 relative z-50 dark:bg-black dark:text-white'>
                 <div className="container">
-                    <Flex className='items-center justify-between'>
+                    <Flex className='items-center  justify-between'>
 
                         {/* Logo */}
                         <div className='flex gap-4 items-center'>
@@ -31,7 +33,7 @@ const Navber = () => {
 
                         {/* Desktop Menu */}
                         <div className='hidden lg:flex items-center lg:gap-25'>
-                            <ul className='flex gap-10 text-paragraphColor text-[16px]'>
+                            <ul className='flex gap-10 text-paragraphColor text-[16px] dark:text-white '>
                                 <li>Home</li>
                                 <li>Pages</li>
                                 <li>Services</li>
@@ -39,7 +41,7 @@ const Navber = () => {
                                 <li>Blog</li>
                                 <li>Contact Us</li>
                             </ul>
-                            <Button>Call Now</Button>
+                            <Button onclick={toggle}>Call Now : {theme}</Button>
                         </div>
 
                         {/* Mobile Icon */}
@@ -66,8 +68,8 @@ const Navber = () => {
                     </ul>
 
                     <div className='flex justify-center mt-4'>
-                        <Button>Call Now</Button>
-                    </div>
+                        <Button onClick={toggle}>Call Now {theme}</Button>
+                     </div>
                 </div>
 
             </nav>

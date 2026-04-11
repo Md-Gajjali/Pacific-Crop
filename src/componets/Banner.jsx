@@ -6,7 +6,7 @@ import Flex from '../componets/Flex.jsx'
 const Banner = () => {
   return (
     <>
-    <div className='relative'>
+    <div className='relative dark:bg-black dark:text-white'>
         <div className="container ">
           <Flex className='mt-36'>
             <div>
